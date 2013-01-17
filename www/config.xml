@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.blackfish.firstline"
+	version 	= "1.0.0">
+
+	<name>Cordova Win 8</name>
+
+	<description>
+		Testing Cordova Win 8
+	</description>
+
+	<author href="http://www.firstline.no"
+		email="etahn.mitchell@firstline.no">
+		Ethan Mitchell
+	</author>
+
+	<icon src="icon.png" gap:role="default" />
+	<access origin="*" />
+	<gap:splash src="splash.png" />
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="show-splash-screen-spinner" value="false" />
+	<feature name="http://api.phonegap.com/1.0/camera"/>
+	
+
+</widget>
